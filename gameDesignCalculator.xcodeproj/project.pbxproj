@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C6C6C51BB26C1B00DCAB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */; };
+		F6C6C6C71BB26C1B00DCAB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */; };
+		F6C6C6CA1BB26C1B00DCAB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */; };
+		F6C6C6CC1BB26C1B00DCAB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6CB1BB26C1B00DCAB25 /* Assets.xcassets */; };
+		F6C6C6CF1BB26C1B00DCAB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6CD1BB26C1B00DCAB25 /* LaunchScreen.storyboard */; };
+		F6C6C6DA1BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6D91BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift */; };
+		F6C6C6E51BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6E41BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6C6C6D61BB26C1B00DCAB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C6C6B91BB26C1B00DCAB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C6C6C01BB26C1B00DCAB25;
+			remoteInfo = gameDesignCalculator;
+		};
+		F6C6C6E11BB26C1B00DCAB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C6C6B91BB26C1B00DCAB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C6C6C01BB26C1B00DCAB25;
+			remoteInfo = gameDesignCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6C6C6C11BB26C1B00DCAB25 /* gameDesignCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameDesignCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6C6C6C91BB26C1B00DCAB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C6C6CB1BB26C1B00DCAB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C6C6CE1BB26C1B00DCAB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C6C6D01BB26C1B00DCAB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C6C6D51BB26C1B00DCAB25 /* gameDesignCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameDesignCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C6C6D91BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameDesignCalculatorTests.swift; sourceTree = "<group>"; };
+		F6C6C6DB1BB26C1B00DCAB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C6C6E01BB26C1B00DCAB25 /* gameDesignCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameDesignCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C6C6E41BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameDesignCalculatorUITests.swift; sourceTree = "<group>"; };
+		F6C6C6E61BB26C1B00DCAB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C6C6BE1BB26C1B00DCAB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6D21BB26C1B00DCAB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6DD1BB26C1B00DCAB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C6C6B81BB26C1B00DCAB25 = {
+			isa = PBXGroup;
+			children = (
+				F6C6C6C31BB26C1B00DCAB25 /* gameDesignCalculator */,
+				F6C6C6D81BB26C1B00DCAB25 /* gameDesignCalculatorTests */,
+				F6C6C6E31BB26C1B00DCAB25 /* gameDesignCalculatorUITests */,
+				F6C6C6C21BB26C1B00DCAB25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C6C6C21BB26C1B00DCAB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6C6C11BB26C1B00DCAB25 /* gameDesignCalculator.app */,
+				F6C6C6D51BB26C1B00DCAB25 /* gameDesignCalculatorTests.xctest */,
+				F6C6C6E01BB26C1B00DCAB25 /* gameDesignCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C6C6C31BB26C1B00DCAB25 /* gameDesignCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */,
+				F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */,
+				F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */,
+				F6C6C6CB1BB26C1B00DCAB25 /* Assets.xcassets */,
+				F6C6C6CD1BB26C1B00DCAB25 /* LaunchScreen.storyboard */,
+				F6C6C6D01BB26C1B00DCAB25 /* Info.plist */,
+			);
+			path = gameDesignCalculator;
+			sourceTree = "<group>";
+		};
+		F6C6C6D81BB26C1B00DCAB25 /* gameDesignCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6C6D91BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift */,
+				F6C6C6DB1BB26C1B00DCAB25 /* Info.plist */,
+			);
+			path = gameDesignCalculatorTests;
+			sourceTree = "<group>";
+		};
+		F6C6C6E31BB26C1B00DCAB25 /* gameDesignCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6C6E41BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift */,
+				F6C6C6E61BB26C1B00DCAB25 /* Info.plist */,
+			);
+			path = gameDesignCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C6C6C01BB26C1B00DCAB25 /* gameDesignCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C6C6E91BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculator" */;
+			buildPhases = (
+				F6C6C6BD1BB26C1B00DCAB25 /* Sources */,
+				F6C6C6BE1BB26C1B00DCAB25 /* Frameworks */,
+				F6C6C6BF1BB26C1B00DCAB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gameDesignCalculator;
+			productName = gameDesignCalculator;
+			productReference = F6C6C6C11BB26C1B00DCAB25 /* gameDesignCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6C6C6D41BB26C1B00DCAB25 /* gameDesignCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C6C6EC1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorTests" */;
+			buildPhases = (
+				F6C6C6D11BB26C1B00DCAB25 /* Sources */,
+				F6C6C6D21BB26C1B00DCAB25 /* Frameworks */,
+				F6C6C6D31BB26C1B00DCAB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6C6C6D71BB26C1B00DCAB25 /* PBXTargetDependency */,
+			);
+			name = gameDesignCalculatorTests;
+			productName = gameDesignCalculatorTests;
+			productReference = F6C6C6D51BB26C1B00DCAB25 /* gameDesignCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6C6C6DF1BB26C1B00DCAB25 /* gameDesignCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C6C6EF1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorUITests" */;
+			buildPhases = (
+				F6C6C6DC1BB26C1B00DCAB25 /* Sources */,
+				F6C6C6DD1BB26C1B00DCAB25 /* Frameworks */,
+				F6C6C6DE1BB26C1B00DCAB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6C6C6E21BB26C1B00DCAB25 /* PBXTargetDependency */,
+			);
+			name = gameDesignCalculatorUITests;
+			productName = gameDesignCalculatorUITests;
+			productReference = F6C6C6E01BB26C1B00DCAB25 /* gameDesignCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C6C6B91BB26C1B00DCAB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = davidkatz;
+				TargetAttributes = {
+					F6C6C6C01BB26C1B00DCAB25 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F6C6C6D41BB26C1B00DCAB25 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6C6C6C01BB26C1B00DCAB25;
+					};
+					F6C6C6DF1BB26C1B00DCAB25 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6C6C6C01BB26C1B00DCAB25;
+					};
+				};
+			};
+			buildConfigurationList = F6C6C6BC1BB26C1B00DCAB25 /* Build configuration list for PBXProject "gameDesignCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6C6C6B81BB26C1B00DCAB25;
+			productRefGroup = F6C6C6C21BB26C1B00DCAB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C6C6C01BB26C1B00DCAB25 /* gameDesignCalculator */,
+				F6C6C6D41BB26C1B00DCAB25 /* gameDesignCalculatorTests */,
+				F6C6C6DF1BB26C1B00DCAB25 /* gameDesignCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C6C6BF1BB26C1B00DCAB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C6C6CF1BB26C1B00DCAB25 /* LaunchScreen.storyboard in Resources */,
+				F6C6C6CC1BB26C1B00DCAB25 /* Assets.xcassets in Resources */,
+				F6C6C6CA1BB26C1B00DCAB25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6D31BB26C1B00DCAB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6DE1BB26C1B00DCAB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C6C6BD1BB26C1B00DCAB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C6C6C71BB26C1B00DCAB25 /* ViewController.swift in Sources */,
+				F6C6C6C51BB26C1B00DCAB25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6D11BB26C1B00DCAB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C6C6DA1BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C6C6DC1BB26C1B00DCAB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C6C6E51BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6C6C6D71BB26C1B00DCAB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6C6C6C01BB26C1B00DCAB25 /* gameDesignCalculator */;
+			targetProxy = F6C6C6D61BB26C1B00DCAB25 /* PBXContainerItemProxy */;
+		};
+		F6C6C6E21BB26C1B00DCAB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6C6C6C01BB26C1B00DCAB25 /* gameDesignCalculator */;
+			targetProxy = F6C6C6E11BB26C1B00DCAB25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C6C6C91BB26C1B00DCAB25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6C6C6CD1BB26C1B00DCAB25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C6C6CE1BB26C1B00DCAB25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C6C6E71BB26C1B00DCAB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6C6C6E81BB26C1B00DCAB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C6C6EA1BB26C1B00DCAB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gameDesignCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6C6C6EB1BB26C1B00DCAB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gameDesignCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6C6C6ED1BB26C1B00DCAB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gameDesignCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gameDesignCalculator.app/gameDesignCalculator";
+			};
+			name = Debug;
+		};
+		F6C6C6EE1BB26C1B00DCAB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gameDesignCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gameDesignCalculator.app/gameDesignCalculator";
+			};
+			name = Release;
+		};
+		F6C6C6F01BB26C1B00DCAB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gameDesignCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gameDesignCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F6C6C6F11BB26C1B00DCAB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gameDesignCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidkatz.gameDesignCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gameDesignCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C6C6BC1BB26C1B00DCAB25 /* Build configuration list for PBXProject "gameDesignCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C6C6E71BB26C1B00DCAB25 /* Debug */,
+				F6C6C6E81BB26C1B00DCAB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C6C6E91BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C6C6EA1BB26C1B00DCAB25 /* Debug */,
+				F6C6C6EB1BB26C1B00DCAB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6C6C6EC1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C6C6ED1BB26C1B00DCAB25 /* Debug */,
+				F6C6C6EE1BB26C1B00DCAB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6C6C6EF1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C6C6F01BB26C1B00DCAB25 /* Debug */,
+				F6C6C6F11BB26C1B00DCAB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C6C6B91BB26C1B00DCAB25 /* Project object */;
+}
