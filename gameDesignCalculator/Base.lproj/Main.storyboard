@@ -3,6 +3,11 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="advanced_pixel_.ttf">
+            <string>AdvancedPixelLCD-7</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -131,6 +136,16 @@
                                     <constraint firstAttribute="width" constant="226" id="BcT-yi-fx7"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1234" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acs-Ol-6hf">
+                                <rect key="frame" x="193" y="134" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3f4-Pi-PKp"/>
+                                    <constraint firstAttribute="height" constant="50" id="php-pt-4wr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AdvancedPixelLCD-7" family="Advanced Pixel LCD-7" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -140,9 +155,10 @@
                             <constraint firstItem="EV3-bZ-wgV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qq3-z1-ifL"/>
                             <constraint firstItem="AiO-5h-rlr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rhl-pV-fZM"/>
                             <constraint firstItem="EV3-bZ-wgV" firstAttribute="centerX" secondItem="AiO-5h-rlr" secondAttribute="centerX" id="Y8p-ci-0mx"/>
+                            <constraint firstItem="acs-Ol-6hf" firstAttribute="trailing" secondItem="isB-Uc-GEg" secondAttribute="trailing" constant="-10" id="dWg-Vw-t6V"/>
                             <constraint firstItem="AiO-5h-rlr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h1T-vx-8WI"/>
                             <constraint firstAttribute="trailing" secondItem="Tqm-xU-Zma" secondAttribute="trailing" id="i1I-cR-aLQ"/>
-                            <constraint firstItem="EV3-bZ-wgV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m2C-Bz-lbU"/>
+                            <constraint firstItem="acs-Ol-6hf" firstAttribute="top" secondItem="isB-Uc-GEg" secondAttribute="top" constant="10" id="jpg-GN-BjU"/>
                             <constraint firstItem="Tqm-xU-Zma" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zPx-Id-bdX"/>
                         </constraints>
                     </view>

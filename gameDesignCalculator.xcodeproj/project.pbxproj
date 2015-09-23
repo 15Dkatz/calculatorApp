@@ -14,6 +14,7 @@
 		F6C6C6CF1BB26C1B00DCAB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6CD1BB26C1B00DCAB25 /* LaunchScreen.storyboard */; };
 		F6C6C6DA1BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6D91BB26C1B00DCAB25 /* gameDesignCalculatorTests.swift */; };
 		F6C6C6E51BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6E41BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift */; };
+		F6C6C6F31BB27ED700DCAB25 /* advanced_pixel_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6F21BB27ED700DCAB25 /* advanced_pixel_.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6C6C6E01BB26C1B00DCAB25 /* gameDesignCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameDesignCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C6C6E41BB26C1B00DCAB25 /* gameDesignCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameDesignCalculatorUITests.swift; sourceTree = "<group>"; };
 		F6C6C6E61BB26C1B00DCAB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C6C6F21BB27ED700DCAB25 /* advanced_pixel_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = advanced_pixel_.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F6C6C6C31BB26C1B00DCAB25 /* gameDesignCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F6C6C6F21BB27ED700DCAB25 /* advanced_pixel_.ttf */,
 				F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */,
 				F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */,
 				F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C6C6CF1BB26C1B00DCAB25 /* LaunchScreen.storyboard in Resources */,
+				F6C6C6F31BB27ED700DCAB25 /* advanced_pixel_.ttf in Resources */,
 				F6C6C6CC1BB26C1B00DCAB25 /* Assets.xcassets in Resources */,
 				F6C6C6CA1BB26C1B00DCAB25 /* Main.storyboard in Resources */,
 			);
