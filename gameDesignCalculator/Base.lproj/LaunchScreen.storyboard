@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +15,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-wj-NJH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="94A-Ed-Sng">
+                                <rect key="frame" x="50" y="270" width="500" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2d4-Ba-iVf"/>
+                                    <constraint firstAttribute="width" constant="300" id="sz3-Oe-teC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="94A-Ed-Sng" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0TN-lD-TCD"/>
+                            <constraint firstItem="gmX-wj-NJH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="5bu-Fg-2ke"/>
+                            <constraint firstAttribute="trailing" secondItem="gmX-wj-NJH" secondAttribute="trailing" id="Ere-08-f9Z"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gmX-wj-NJH" secondAttribute="bottom" id="QBh-ew-EuI"/>
+                            <constraint firstItem="gmX-wj-NJH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="WA3-XC-MzD"/>
+                            <constraint firstItem="94A-Ed-Sng" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xH0-37-bqM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +44,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
+        <image name="launchbg" width="1433" height="957"/>
+    </resources>
 </document>

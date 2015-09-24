@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F685D3431BB2F7C200B6337C /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F685D3421BB2F7C200B6337C /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 		F6C6C6C51BB26C1B00DCAB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */; };
 		F6C6C6C71BB26C1B00DCAB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */; };
 		F6C6C6CA1BB26C1B00DCAB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F685D3421BB2F7C200B6337C /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		F6C6C6C11BB26C1B00DCAB25 /* gameDesignCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameDesignCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C6C6C41BB26C1B00DCAB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C6C6C61BB26C1B00DCAB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				F6C6C6C81BB26C1B00DCAB25 /* Main.storyboard */,
 				F6C6C6CB1BB26C1B00DCAB25 /* Assets.xcassets */,
 				F6C6C6CD1BB26C1B00DCAB25 /* LaunchScreen.storyboard */,
+				F685D3421BB2F7C200B6337C /* btn.wav */,
 				F6C6C6D01BB26C1B00DCAB25 /* Info.plist */,
 			);
 			path = gameDesignCalculator;
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F685D3431BB2F7C200B6337C /* btn.wav in Resources */,
 				F6C6C6CF1BB26C1B00DCAB25 /* LaunchScreen.storyboard in Resources */,
 				F6C6C6F31BB27ED700DCAB25 /* advanced_pixel_.ttf in Resources */,
 				F6C6C6CC1BB26C1B00DCAB25 /* Assets.xcassets in Resources */,
@@ -485,6 +489,7 @@
 				F6C6C6EB1BB26C1B00DCAB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C6C6EC1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				F6C6C6EE1BB26C1B00DCAB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C6C6EF1BB26C1B00DCAB25 /* Build configuration list for PBXNativeTarget "gameDesignCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				F6C6C6F11BB26C1B00DCAB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
